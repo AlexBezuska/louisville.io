@@ -1,0 +1,76 @@
+<main role="main" class="l-content">
+	<div class="l-container">
+
+		<h1>Louisville Tech Talent</h1>
+
+    <p> Designers, developers and everything in-between, these local folks are here to help you with your next project.
+      <br/><strong>Serious contract work inquiries only please.</strong>
+      <br/>If you are doing contract work in the Louisville area you can <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLW8c1IiWYUd3y1W_GbephSRaXJk7G0R5Je-4-Zotwr5Qj9Q/viewform">request to be added here</a>.
+    </p>
+
+
+		<div class="batch-g batch-g--gutter batch-g--padding">
+
+			{{#each talent}}
+				<div class="batch-c-1-1 batch-c-md-1-2 batch-c-lg-1-4 event">
+
+					<div class="event-table">
+					  <div class="event-cell">
+					    <h2 class="event-title">
+                {{#if web}}
+									<a href="{{web}}">{{name}}</a>
+                {{else}}
+                  {{#if email}}
+                    <a href="mailto:{{email}}">{{name}}</a>
+                  {{else}}
+                    {{name}}
+                  {{/if}}
+                {{/if}}
+								</h2>
+                {{#if categories}}
+                <h3>
+                  {{#each categories}}
+                    {{this}}<span class="remove-if-last">,</span>
+                  {{/each}}
+                </h3>
+                {{/if}}
+					  </div>
+				  </div>
+
+					{{#if twitter}}
+						<h3 class="io-icon io-twitter">
+							<a href="https://twitter.com/{{twitter}}">@{{twitter}}</a>
+						</h3>
+					{{/if}}
+
+					{{#if email}}
+						<h3 class="io-icon io-email">
+							<a href="mailto:{{email}}">Email</a>
+						</h3>
+					{{/if}}
+
+          {{#if facebook}}
+						<h3 class="io-icon io-facebook">
+							<a href="https://facebook.com/{{facebook}}">Facebook</a>
+						</h3>
+					{{/if}}
+
+          {{#if linkedin}}
+						<h3 class="io-icon io-linkedin">
+							<a href="https://linkedin.com/in/{{linkedin}}">LinkedIn</a>
+						</h3>
+					{{/if}}
+
+				</div>
+			{{/each}}
+
+		</div>
+
+	</div>
+</main>
+
+<script type="text/javascript">
+window.onload = function () {
+	setMenuState(4);
+}
+</script>

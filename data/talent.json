@@ -1,0 +1,68 @@
+{
+	"funnychord-creative": {
+		"name": "Funnychord Creative",
+		"categories": [
+			"Creative Strategy",
+			"Graphic Design",
+			"Web Development",
+			"Photography"
+		],
+		"web": "https://funnychord.com/",
+		"twitter": "LPetersDesign",
+		"linkedin": "funnychord",
+		"facebook": "funnychordLP"
+	},
+	"hartvigsen-brian": {
+		"name": "Brian Hartvigsen",
+		"categories": [
+			"Web Development",
+			"LAMP development",
+			"Freelance DevOps",
+			"Linux Sysadmin"
+		],
+		"linkedin": "brianhartvigsen",
+		"email": "brian@kentuckydigital.com"
+	},
+	"hicks-john": {
+		"name": "John Hicks",
+		"categories": [
+			"Custom small-business applications",
+			"Rapid LAMP prototyping",
+			"Linux sysadmin and MySQL DBA services",
+			"Manager, facilitator, communicator"
+		],
+		"linkedin": "johnrhicks",
+		"email": "john@johnhicks.org"
+	},
+	"spacetronaut": {
+		"name": "Spacetronaut",
+		"categories": [
+			"Game Development",
+			"Mobile Game Development",
+			"2D/3D",
+			"unity3D"
+		],
+		"web": "http://spacetronaut.itch.io",
+		"twitter": "Spacetronaut_",
+		"email": "contact@spacetronautgames.com"
+	},
+	"searcy-mike": {
+		"name": "Mike Searcy",
+		"categories": [
+			"Web Development & Consultation"
+		],
+		"twitter": "gooddadmike",
+		"linkedin": "gooddadmike",
+		"email": "mike@searcy.me"
+	},
+	"two-scoop-games": {
+		"name": "Two Scoop Games",
+		"categories": [
+			"Game Development",
+			"Web Game Development"
+		],
+		"web": "http://twoscoopgames.com/",
+		"twitter": "TwoScoopGames",
+		"email": "info@twoscoopgames.com"
+	}
+}
